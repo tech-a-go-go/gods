@@ -13,6 +13,7 @@ package redblacktree
 
 import (
 	"fmt"
+
 	"github.com/emirpasic/gods/trees"
 	"github.com/emirpasic/gods/utils"
 )
@@ -46,6 +47,7 @@ type Node struct {
 
 // NewWith instantiates a red-black tree with the custom comparator.
 func NewWith(comparator utils.Comparator) *Tree {
+	// test
 	return &Tree{Comparator: comparator}
 }
 
